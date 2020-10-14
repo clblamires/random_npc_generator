@@ -1,11 +1,5 @@
 let app = angular.module("npcApp", []);
 
-app.service("npcService", function($http, $q){
-    this.load = function(){
-        
-    }
-});
-
 app.controller("npcCtrl", function($scope, $http){
     $scope.article = "A";
     $scope.race = "";

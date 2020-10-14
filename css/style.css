@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+h1, p, footer {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: rgb(85, 95, 97);
+}
+
+h1 {
+    font-size: 250%;
+}
+
+p {
+    line-height: 2;
+    font-size: 150%;
+}
+
+span {
+    border-bottom: 2px gray solid;
+    background-color: lightyellow;
+}
+
+body {
+    /* border: solid 1px red; */
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    background: rgb(85, 95, 97);
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
